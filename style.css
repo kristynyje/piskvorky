@@ -1,0 +1,49 @@
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 45px;
+  text-align: center;
+  background-color: #283e50;
+  color: #ffffff;
+  height: 60px;
+  width: 350px;
+}
+p {
+  line-height: 1.4;
+  background-color: #283e50;
+  height: 150px;
+  width: 350px;
+}
+p,
+button {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+img {
+  width: 320px;
+  height: 190px;
+  border-radius: 2% 2% 0 0;
+}
+.box {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  width: 350px;
+  height: 45px;
+  border-style: none;
+}
+.button1 {
+  background-color: #1fcca4;
+}
+
+.button2 {
+  background-color: #0197f6;
+  border-top: #283e50;
+  border-style: solid;
+  border-width: 1px;
+}
