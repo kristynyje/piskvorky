@@ -64,3 +64,20 @@ button {
   border-style: solid;
   border-width: 1px;
 }
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+.button1:hover {
+  background-color: #1cbb96;
+}
+
+.button2:hover {
+  background-color: #0090e9;
+}
