@@ -1,17 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 45px;
   text-align: center;
   background-color: #283e50;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
   color: #ffffff;
   height: 60px;
   width: 350px;
+  margin: 0;
+  padding-top: 22px;
 }
 p {
   line-height: 1.4;
   background-color: #283e50;
-  height: 150px;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
   width: 350px;
+  margin: 0;
+  padding-top: 22px;
+  padding-bottom: 18px;
 }
 p,
 button {
@@ -22,11 +32,12 @@ button {
 }
 
 img {
-  width: 320px;
-  height: 190px;
+  width: 350px;
+  height: auto;
   border-radius: 2% 2% 0 0;
 }
-.box {
+.container {
+  display: flex;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -36,6 +47,7 @@ button {
   width: 350px;
   height: 45px;
   border-style: none;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
 .button1 {
   background-color: #1fcca4;
