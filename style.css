@@ -53,12 +53,11 @@ button {
   border-style: none;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
-.button1 {
+.card__button__green {
   background-color: #1fcca4;
-  border-right: none;
 }
 
-.button2 {
+.card__button__blue {
   background-color: #0197f6;
   border-top: #283e50;
   border-style: solid;
@@ -77,10 +76,10 @@ a:visited {
   color: #ffffff;
 }
 
-.button1:hover {
+.card__button__green:hover {
   background-color: #1cbb96;
 }
 
-.button2:hover {
+.card__button__blue:hover {
   background-color: #0090e9;
 }
