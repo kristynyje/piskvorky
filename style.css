@@ -34,7 +34,7 @@ p {
 }
 p,
 button {
-  font-family: sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-size: 16px;
   text-align: center;
   color: #ffffff;
