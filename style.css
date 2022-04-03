@@ -107,3 +107,18 @@ li {
   align-content: center;
   text-align: left;
 }
+.img__icons {
+  filter: invert(100%);
+  width: 20px;
+}
+.img__setup {
+  width: 80%;
+}
+
+p.card__setup {
+  text-align: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
