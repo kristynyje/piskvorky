@@ -21,7 +21,8 @@ h1 {
   margin: 0;
   padding-top: 30px;
 }
-p {
+p,
+ol {
   line-height: 1.5;
   background-color: #283e50;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
@@ -33,7 +34,8 @@ p {
   padding-left: 8px;
 }
 p,
-button {
+button,
+ol {
   font-family: 'OpenSans', sans-serif;
   font-size: 16px;
   text-align: center;
@@ -82,4 +84,26 @@ a:visited {
 
 .card__button__blue:hover {
   background-color: #0090e9;
+}
+
+.card__rules {
+  display: flex;
+  flex-direction: column;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  padding: 10px;
+  max-width: 80%;
+  margin-left: 40px;
+}
+.card__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: left;
 }
