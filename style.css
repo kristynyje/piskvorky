@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 70px;
+  border-radius: 10px 10px 0 0;
 }
 
 h1 {
@@ -17,16 +18,20 @@ h1 {
   background-color: #283e50;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
   color: #ffffff;
-  width: 370px;
+  width: 23rem;
   margin: 0;
   padding-top: 30px;
 }
+/* h1 .rules__header {
+  border-radius: 10px 10px 0 0;
+} nefunguje  */
+
 p,
 ol {
   line-height: 1.5;
   background-color: #283e50;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
-  width: 370px;
+  max-width: 23rem;
   margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -35,7 +40,8 @@ ol {
 }
 p,
 button,
-ol {
+ol,
+figure {
   font-family: 'OpenSans', sans-serif;
   font-size: 16px;
   text-align: center;
@@ -44,14 +50,15 @@ ol {
 
 .card__img {
   display: flex;
-  width: 370px;
+  max-width: 23rem;
   height: auto;
-  border-radius: 2% 2% 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 button {
-  width: 370px;
-  height: 50px;
+  width: 23rem;
+  height: 3.5rem;
+  cursor: pointer;
   border-style: none;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
@@ -89,36 +96,38 @@ a:visited {
 .card__rules {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-ol {
-  display: flex;
-  flex-direction: column;
-}
-
-li {
-  padding: 10px;
-  max-width: 80%;
-  margin-left: 40px;
-}
-.card__list {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+.rules__seznam li {
+  max-width: 85%;
+  margin: 1rem 2rem 1rem 4rem;
   text-align: left;
 }
+
 .img__icons {
-  filter: invert(100%);
-  width: 20px;
-}
-.img__setup {
-  width: 80%;
+  filter: invert(1);
+  height: 1em;
 }
 
-p.card__setup {
-  text-align: 80%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 5px;
-  padding-left: 5px;
+.img__setup {
+  width: 85%;
+}
+figcaption {
+  width: 85%;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 2.5rem;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  line-height: 1.5;
+  background-color: #283e50;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  max-width: 23rem;
+  margin: 0;
 }
