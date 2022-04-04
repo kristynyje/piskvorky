@@ -142,4 +142,7 @@ figure {
   .rules__header {
     width: 80vw;
   }
+  .img__setup {
+    width: 30%;
+  }
 }
