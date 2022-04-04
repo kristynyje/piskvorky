@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+.rules__header {
+  border-radius: 10px 10px 0 0;
+}
 body {
   background: linear-gradient(#615dad, #ffc8da);
   background-attachment: fixed;
@@ -22,9 +24,6 @@ h1 {
   margin: 0;
   padding-top: 30px;
 }
-/* h1 .rules__header {
-  border-radius: 10px 10px 0 0;
-} nefunguje  */
 
 p,
 ol {
@@ -113,8 +112,10 @@ a:visited {
 .img__setup {
   width: 85%;
 }
+
 figcaption {
   width: 85%;
+  font-style: italic;
   text-align: center;
   padding-top: 0.5rem;
   padding-bottom: 2.5rem;
@@ -130,4 +131,15 @@ figure {
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
   max-width: 23rem;
   margin: 0;
+}
+@media (min-width: 768px) {
+  .rules__seznam,
+  figure,
+  .rules__header {
+    max-width: 80vw;
+  }
+  button,
+  .rules__header {
+    width: 80vw;
+  }
 }
