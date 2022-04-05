@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Pravidla</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
       rel="stylesheet"
     />
+    <title>Pravidla</title>
   </head>
-  <body>
-    <div class="card__rules">
-      <h1 class="rules__header">Pravidla</h1>
-      <div class="rules">
+  <body class="prvni__body">
+    <main class="card__pravidla">
+      <div class="opening">
+        <h1>Pravidla</h1>
         <ol class="rules__seznam">
           <li>Hra piškvorky je určena pro dva hráče.</li>
           <li>Hraje se na hrací ploše 10×10, tvořené poli ve tvaru čtverce.</li>
@@ -48,61 +48,61 @@
             symbolů do jedné řady, hra končí remízou.
           </li>
         </ol>
-      </div>
-      <div class="card__figures">
-        <figure>
-          <img class="img__setup" src="instructions-01.jpeg" alt="tři tahy" />
+        <div class="imgs__setup">
+          <figure>
+            <img class="img__setup" src="instructions-01.jpeg" alt="tři tahy" />
 
-          <figcaption>
-            <em>Situace po třech tazích - na tahu je hráč s kolečky</em>
-          </figcaption>
-        </figure>
-        <figure>
-          <img class="img__setup" src="instructions-02.jpeg" alt="čtyři tahy" />
-          <figcaption><em>Situace po čtyřech tazích</em></figcaption>
-        </figure>
-        <figure>
-          <img
-            class="img__setup"
-            src="instructions-03.jpeg"
-            alt="výherní pozice s kolečky"
-          />
-          <figcaption><em>Výherní pozice hráče s kolečky</em></figcaption>
-        </figure>
-        <figure>
-          <img
-            class="img__setup"
-            src="instructions-04.jpeg"
-            alt="nikdo nevyhrává"
-          />
-          <figcaption>
-            <em
-              >V této situaci nikdo nevyhrává. Pokud je na tahu hráč s kolečky,
+            <figcaption>
+              Situace po třech tazích - na tahu je hráč s kolečky
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              class="img__setup"
+              src="instructions-02.jpeg"
+              alt="čtyři tahy"
+            />
+            <figcaption>Situace po čtyřech tazích</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="img__setup"
+              src="instructions-03.jpeg"
+              alt="výherní pozice s kolečky"
+            />
+            <figcaption>Výherní pozice hráče s kolečky</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="img__setup"
+              src="instructions-04.jpeg"
+              alt="nikdo nevyhrává"
+            />
+            <figcaption>
+              V této situaci nikdo nevyhrává. Pokud je na tahu hráč s kolečky,
               může přidat další kolečko do šikmé řady, kde už má 4 kolečka, a
-              vyhraje.</em
-            >
-          </figcaption>
-        </figure>
+              vyhraje.
+            </figcaption>
+          </figure>
 
-        <figure>
-          <img
-            class="img__setup"
-            src="instructions-05.jpeg"
-            alt="výherní pozice s křížky"
-          />
-          <figcaption><em>Výherní pozice hráče s křížky</em></figcaption>
-        </figure>
+          <figure>
+            <img
+              class="img__setup"
+              src="instructions-05.jpeg"
+              alt="výherní pozice s křížky"
+            />
+            <figcaption>Výherní pozice hráče s křížky</figcaption>
+          </figure>
 
-        <figure>
-          <img
-            class="img__setup"
-            src="instructions-06.jpeg"
-            alt="další výherní pozice s kolečky"
-          />
-          <figcaption>
-            <em>Ještě jedna výherní pozice hráče s kolečky</em>
-          </figcaption>
-        </figure>
+          <figure>
+            <img
+              class="img__setup"
+              src="instructions-06.jpeg"
+              alt="další výherní pozice s kolečky"
+            />
+            <figcaption>Ještě jedna výherní pozice hráče s kolečky</figcaption>
+          </figure>
+        </div>
       </div>
       <button class="card__button__green">
         <a href="pravidla.html">Úvodní stránka</a>
@@ -110,6 +110,6 @@
       <button class="card__button__blue">
         <a href="index.html">Začít hrát</a>
       </button>
-    </div>
+    </main>
   </body>
 </html>
