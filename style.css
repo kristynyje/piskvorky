@@ -167,8 +167,11 @@ li {
   color: #ffffff;
   font-family: 'OpenSans', sans-serif;
   max-width: 80vmin;
+}
+.card__body__game {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .circle__game {
@@ -216,6 +219,7 @@ li {
   cursor: pointer;
   background-color: rgb(204, 190, 214);
   border: 1.5px solid rgb(29, 27, 31);
+  line-height: 0;
 }
 
 .game__grid button:hover {
