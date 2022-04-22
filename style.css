@@ -175,7 +175,7 @@ li {
   align-items: center;
 }
 
-.circle__game {
+.icon__game {
   filter: invert(1);
   width: 1.7rem;
   margin-left: 0.5rem;
@@ -251,4 +251,29 @@ li {
 
 .game__header {
   text-align: center;
+}
+
+.game__grid--circle {
+  background-image: url(photos/circle.svg);
+  background-repeat: no-repeat;
+  background-size: 2.7rem;
+  background-position: center;
+  animation: zoom 0.2s;
+}
+
+.game__grid--cross {
+  background-image: url(photos/cross.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  animation: zoom 0.2s;
+}
+
+@keyframes zoom {
+  0% {
+    background-size: 0;
+  }
+  100% {
+    background-size: 80%;
+  }
 }
