@@ -256,7 +256,7 @@ li {
 .game__grid--circle {
   background-image: url(photos/circle.svg);
   background-repeat: no-repeat;
-  background-size: 2.7rem;
+  background-size: 80%;
   background-position: center;
   animation: zoom 0.2s;
 }
