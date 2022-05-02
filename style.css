@@ -253,6 +253,7 @@ li {
   text-align: center;
 }
 
+/* 4. část - OŽITÍ HRACÍHO POLE - JS */
 .game__grid--circle {
   background-image: url(photos/circle.svg);
   background-repeat: no-repeat;
