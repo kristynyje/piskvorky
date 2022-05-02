@@ -24,7 +24,9 @@ const turns = (event) => {
 
   if (winner) {
     const symbol = getSymbol(event.target);
-    alert(`Vyhrál(o) ${symbol}. Spustit novou hru?`);
+    if (confirm(`Vyhrál(o) ${symbol}. Spustit novou hru?`) === true) {
+      location.reload();
+    }
   }
 
   console.log(isWinningMove(event.target));
@@ -36,14 +38,14 @@ for (let i = 0; i < buttons.length; i += 1) {
 
 const getSymbol = (field) => {
   if (field.classList.contains('game__grid--cross')) {
-    return 'cross';
+    return 'KŘÍŽEK';
   } else if (field.classList.contains('game__grid--circle')) {
-    return 'circle';
+    return 'KOLEČKO';
   }
 };
 
 const boardSize = 10; // 10x10
-const fields = document.querySelectorAll('.game__grid');
+const fields = document.querySelectorAll('.game__grid button');
 
 const getField = (row, column) => {
   return fields[row * boardSize + column];
