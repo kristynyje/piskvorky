@@ -24,7 +24,7 @@ const turns = (event) => {
 
   if (winner) {
     const symbol = getSymbol(event.target);
-    if (confirm(`Vyhrál(o) ${symbol}. Spustit novou hru?`) === true) {
+    if (confirm(`Vyhrává ${symbol}. Spustit novou hru?`) === true) {
       location.reload();
     }
   }
